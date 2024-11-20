@@ -131,51 +131,31 @@ class FeishuMonitor:
                 
             # 点击进入目标群
             group.click()
-            time.sleep(2)  # 等待群组加载
+            time.sleep(1)  # 减少等待时间
             
             try:
-                # 使用body元素发送按键，这样可以避免直接操作输入框
-                body = WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                # 定位输入框区域
+                input_area = WebDriverWait(self.driver, 5).until(
+                    EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'innerdocbody')]"))
                 )
                 
-                # 确保焦点在页面上
-                body.click()
-                time.sleep(0.5)
+                # 点击输入框获取焦点
+                input_area.click()
+                time.sleep(0.2)
                 
-                # 直接发送按键事件到body
-                for char in message['content']:
-                    body.send_keys(char)
-                    time.sleep(0.05)  # 添加少量延迟模拟真实输入
+                # 输入消息
+                input_area.send_keys(message['content'])
+                time.sleep(0.3)  # 短暂等待确保消息输入完成
                 
-                time.sleep(0.5)
-                
-                # 查找并点击发送按钮
-                send_button = WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "button.ud__button--icon .send__button"))
-                )
-                
-                # 确保按钮可见和可点击
-                self.driver.execute_script("arguments[0].scrollIntoView(true);", send_button)
-                time.sleep(0.5)
-                
-                # 尝试使用JavaScript点击按钮
-                self.driver.execute_script("arguments[0].click();", send_button)
+                # 发送消息 (模拟Enter键)
+                input_area.send_keys(Keys.ENTER)
+                time.sleep(0.2)  # 等待消息发送
                 
                 log_manager.info(f"消息已转发到群 [{target_group}]: {message['content'][:50]}...")
-                time.sleep(1)  # 等待消息发送完成
                 return True
                 
             except Exception as e:
                 log_manager.error(f"发送消息失败: {str(e)}")
-                log_manager.error(f"消息内容: {message['content']}")
-                # 尝试获取发送按钮状态
-                try:
-                    send_button = self.driver.find_element(By.CSS_SELECTOR, "button.ud__button--icon .send__button")
-                    button_classes = send_button.get_attribute("class")
-                    log_manager.error(f"发送按钮状态: {button_classes}")
-                except:
-                    log_manager.error("无法获取发送按钮状态")
                 return False
                 
         except Exception as e:
@@ -184,34 +164,35 @@ class FeishuMonitor:
             
     def start(self):
         """开始监控"""
-        self.is_running = True
-        log_manager.info("开始监控消息...")
-        
-        while self.is_running:
-            try:
+        try:
+            while True:
+                # 遍历配置的群组映射
                 for source_group in self.source_groups:
-                    # 获取新消息
-                    messages = self.get_new_messages(source_group)
-                    if not messages:
-                        continue
+                    try:
+                        # 获取源群组的新消息
+                        messages = self.get_new_messages(source_group)
                         
-                    # 获取目标群列表
-                    target_groups = self.group_mapping_config.get_target_groups(source_group)
-                    if not target_groups:
-                        log_manager.warning(f"群组 {source_group} 未配置目标群")
-                        continue
-                        
-                    # 转发消息到所有目标群
-                    for message in messages:
-                        for target_group in target_groups:
-                            self.forward_message(message, target_group)
+                        # 转发新消息到目标群组
+                        target_groups = self.group_mapping_config.get_target_groups(source_group)
+                        if not target_groups:
+                            log_manager.warning(f"群组 {source_group} 未配置目标群")
+                            continue
+                        for message in messages:
+                            for target_group in target_groups:
+                                if self.forward_message(message, target_group):
+                                    time.sleep(0.5)  # 消息发送间隔
                             
-                time.sleep(5)  # 等待一段时间再次检查
+                    except Exception as e:
+                        log_manager.error(f"处理群组 {source_group} 失败: {str(e)}")
+                        continue
+                        
+                time.sleep(1)  # 减少轮询间隔
                 
-            except Exception as e:
-                log_manager.error(f"监控过程发生错误: {str(e)}")
-                time.sleep(10)  # 发生错误时等待较长时间
-                
+        except KeyboardInterrupt:
+            log_manager.info("监控已停止")
+        except Exception as e:
+            log_manager.error(f"监控异常: {str(e)}")
+            
     def stop(self):
         """停止监控"""
         self.is_running = False
