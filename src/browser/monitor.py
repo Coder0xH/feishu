@@ -92,50 +92,61 @@ class FeishuMonitor:
                 
                 try:
                     # 检查是否是图片消息
-                    image_element = latest_message.find_elements(By.XPATH, ".//img[contains(@class, 'msg-image')]")
+                    image_element = latest_message.find_elements(By.XPATH, ".//img[contains(@class, 'messenger-image__img--white-bg')]")
                     if image_element:
-                        # 获取发送者名称
                         try:
-                            sender_element = latest_message.find_element(By.XPATH, ".//div[contains(@class, 'message-info__inner')]//span[contains(@class, 'message-info-name--clickable')]")
-                            sender_name = sender_element.get_attribute('innerText').strip()
-                        except NoSuchElementException:
-                            sender_name = "未知用户"
+                            # 获取图片URL
+                            img_url = image_element[0].get_attribute('data-lark-image-uri')
+                            if img_url:
+                                return [{
+                                    'content': img_url,
+                                    'raw_content': img_url,
+                                    'time': datetime.now(),
+                                    'type': 'image'
+                                }]
+                        except Exception as e:
+                            log_manager.error(f"处理图片消息失败: {str(e)}")
+                            return []
+                    
+                    # 获取完整消息内容（包括文本和链接）
+                    content = ""
+                    try:
+                        # 获取所有文本和链接元素
+                        elements = latest_message.find_elements(By.XPATH, ".//div[contains(@class, 'richTextContainer')]/*[self::span[@class='text-only'] or self::a[@class='link rich-text-anchor __anchor-intercept-flag__']]")
                         
-                        formatted_content = f"{sender_name}: [图片]"
+                        # 组合所有元素的内容
+                        for element in elements:
+                            if element.tag_name == 'span':
+                                content += element.get_attribute('innerText').strip()
+                            elif element.tag_name == 'a':
+                                content += element.get_attribute('href').strip()
+                            
+                        # 如果已经发送过这条消息，则跳过
+                        if group_name in self.last_message_content and self.last_message_content[group_name] == content:
+                            return []
+                        
+                        # 更新最后发送的消息内容
+                        self.last_message_content[group_name] = content
                         
                         return [{
-                            'content': formatted_content,
-                            'raw_content': '[图片]',
+                            'content': content,
+                            'raw_content': content,
                             'time': datetime.now(),
-                            'type': 'image'
+                            'type': 'text'
                         }]
-                    
-                    # 获取文本内容
-                    text_element = latest_message.find_element(By.XPATH, ".//div[contains(@class, 'richTextContainer')]//span[contains(@class, 'text-only')]")
-                    content = text_element.get_attribute('innerText').strip()
-                    
-                    # 如果已经发送过这条消息，则跳过
-                    if group_name in self.last_message_content and self.last_message_content[group_name] == content:
+                        
+                    except Exception as e:
+                        log_manager.error(f"解析消息内容失败: {str(e)}")
                         return []
                     
-                    # 更新最后发送的消息内容
-                    self.last_message_content[group_name] = content
-                    
-                    return [{
-                        'content': content,
-                        'raw_content': content,
-                        'time': datetime.now(),
-                        'type': 'text'
-                    }]
-                    
                 except Exception as e:
-                    log_manager.error(f"解析消息内容失败: {str(e)}")
+                    log_manager.error(f"获取消息列表失败: {str(e)}")
                     return []
                     
             except Exception as e:
-                log_manager.error(f"获取消息列表失败: {str(e)}")
+                log_manager.error(f"获取群组 {group_name} 消息失败: {str(e)}")
                 return []
-                
+            
         except Exception as e:
             log_manager.error(f"获取群组 {group_name} 消息失败: {str(e)}")
             return []
