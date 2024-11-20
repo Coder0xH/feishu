@@ -25,7 +25,7 @@ class MonitorThread(QThread):
         try:
             self.status_changed.emit("正在启动浏览器...")
             self.monitor = FeishuMonitor(
-                source_groups=self.source_groups,
+                driver=None,
                 group_mapping_config=self.group_mapping_config
             )
             
@@ -42,7 +42,7 @@ class MonitorThread(QThread):
                 
         except Exception as e:
             self.status_changed.emit(f"发生错误: {str(e)}")
-            log_manager.error("监控线程发生错误", exc_info=True)
+            log_manager.error(f"监控线程发生错误: {str(e)}")
             
     def start_monitoring(self):
         """开始监控"""

@@ -33,6 +33,10 @@ class GroupMappingConfig:
                 return mapping.target_groups
         return []
         
+    def get_source_groups(self) -> List[str]:
+        """获取所有源群列表"""
+        return [mapping.source_group for mapping in self.mappings]
+        
     def save(self):
         """保存配置到文件"""
         data = [{

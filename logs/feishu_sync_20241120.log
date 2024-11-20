@@ -218,3 +218,109 @@ Stacktrace:
 2024-11-20 17:48:18,818 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
 2024-11-20 17:48:19,825 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
 2024-11-20 17:48:19,825 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:50:53,030 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:50:56,515 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:51:26,401 - feishu_sync - INFO - 登录成功
+2024-11-20 17:51:26,403 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:51:29,484 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: WaTell[][]:
+
+:...
+2024-11-20 17:51:34,012 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Veyron...
+2024-11-20 17:51:36,511 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: kuokuoRif150m...
+2024-11-20 17:51:38,963 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Panx[@emoji=\uD83D\uDE01]...
+2024-11-20 17:51:41,334 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: kuokuo...
+2024-11-20 17:51:43,761 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Rif150m...
+2024-11-20 17:51:46,167 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: r*F...
+2024-11-20 17:51:48,532 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: [][]:
+
+:...
+2024-11-20 17:51:50,949 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: peter[@emoji=\u7DCA]...
+2024-11-20 17:51:53,313 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: [表情]...
+2024-11-20 17:51:55,728 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: WaTell[][]:
+
+:...
+2024-11-20 17:52:00,245 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Veyron...
+2024-11-20 17:52:02,667 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: kuokuoRif150m...
+2024-11-20 17:52:05,129 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Panx[@emoji=\uD83D\uDE01]...
+2024-11-20 17:52:07,557 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: kuokuo...
+2024-11-20 17:52:09,947 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Rif150m...
+2024-11-20 17:52:12,328 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: r*F...
+2024-11-20 17:52:14,806 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: [][]:
+
+:...
+2024-11-20 17:52:17,311 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: peter[@emoji=\u7DCA]...
+2024-11-20 17:52:19,705 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: [表情]...
+2024-11-20 17:52:22,126 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: WaTell[][]:
+
+:...
+2024-11-20 17:52:26,644 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Veyron...
+2024-11-20 17:52:29,024 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: kuokuoRif150m...
+2024-11-20 17:52:31,425 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: Panx[@emoji=\uD83D\uDE01]...
+2024-11-20 17:52:32,145 - feishu_sync - INFO - 监控已停止
+2024-11-20 17:52:32,145 - feishu_sync - INFO - 停止监控
+2024-11-20 17:52:32,978 - feishu_sync - ERROR - 发送消息失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,978 - feishu_sync - ERROR - 原始消息内容: 陈kuokuo：塔可夫
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:52:32,981 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,982 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:52:32,982 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:32,982 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:52:33,985 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:33,986 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:34,988 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:34,989 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:35,994 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:35,994 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:36,995 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:36,995 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:37,999 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:38,000 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:39,006 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:39,006 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:40,008 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:52:40,010 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:52:46,576 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:52:46,619 - feishu_sync - INFO - 发生错误: FeishuMonitor.__init__() got an unexpected keyword argument 'source_groups'
+2024-11-20 17:55:58,007 - feishu_sync - ERROR - 监控线程发生错误: 'GroupMappingConfig' object has no attribute 'get_source_groups'
+2024-11-20 17:55:58,010 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:55:58,053 - feishu_sync - INFO - 发生错误: 'GroupMappingConfig' object has no attribute 'get_source_groups'
+2024-11-20 17:57:22,436 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:57:25,902 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:57:54,892 - feishu_sync - INFO - 登录成功
+2024-11-20 17:57:54,893 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:58:07,981 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: vaj...
+2024-11-20 17:58:24,871 - feishu_sync - ERROR - 解析消息内容失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001031e7ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031e0314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c484b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c4d398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000102c4f3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000102c4f490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102c8c5dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000102c82a10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000102cc60fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000102c810b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000102c81d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x00000001031b2e08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x00000001031b6120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010319a17c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x00000001031b69e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x000000010318b988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001031d10f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x00000001031d1270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001031dff88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:58:51,419 - feishu_sync - INFO - 监控已停止
+2024-11-20 17:58:51,420 - feishu_sync - INFO - 停止监控
+2024-11-20 17:58:52,262 - feishu_sync - ERROR - 获取消息列表失败: 'NoneType' object has no attribute 'find_elements'

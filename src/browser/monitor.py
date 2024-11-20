@@ -3,6 +3,7 @@
 """
 import time
 import logging
+import re
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -18,13 +19,13 @@ from ..utils.logger import log_manager
 class FeishuMonitor:
     """飞书监控类"""
     
-    def __init__(self, source_groups: list, group_mapping_config: GroupMappingConfig):
-        """初始化"""
-        self.source_groups = source_groups
+    def __init__(self, driver, group_mapping_config):
+        """初始化监控器"""
+        self.driver = driver
         self.group_mapping_config = group_mapping_config
+        self.source_groups = group_mapping_config.get_source_groups() if group_mapping_config else []
         self.is_running = False
-        self.driver = None
-        self.last_message_time = {}  # 用于存储每个群的最后消息时间
+        self.last_message_content = {}  # 用于存储每个群组最后一条消息的内容
         
     def setup_browser(self):
         """启动浏览器并打开飞书"""
@@ -80,45 +81,84 @@ class FeishuMonitor:
             group.click()
             time.sleep(1)  # 等待群组加载
             
-            # 获取消息列表
-            messages = []
             try:
-                # 使用XPath查找消息元素
-                message_elements = self.driver.find_elements(By.XPATH, "//span[@class='text-only']")
+                # 获取最新的消息元素
+                message_elements = self.driver.find_elements(By.XPATH, "//div[contains(@class, 'message-content')]")
+                if not message_elements:
+                    return []
                 
-                for msg_element in message_elements:
-                    try:
-                        # 获取消息内容
-                        content = msg_element.get_attribute('innerText')
-                        if not content:
-                            continue
-                            
-                        # 使用当前时间作为消息时间
-                        msg_time = datetime.now()
-                        
-                        # 如果是新消息则添加到列表
-                        if group_name not in self.last_message_time or msg_time > self.last_message_time[group_name]:
-                            messages.append({
-                                'content': content,
-                                'time': msg_time
-                            })
-                            
-                    except Exception as e:
-                        log_manager.error(f"解析消息失败: {str(e)}")
-                        continue
-                        
+                # 只处理最新的一条消息
+                latest_message = message_elements[-1]
+                
+                try:
+                    # 检查是否是图片消息
+                    image_element = latest_message.find_elements(By.XPATH, ".//img[contains(@class, 'msg-image')]")
+                    if image_element:
+                        return [{
+                            'content': '[图片]',
+                            'time': datetime.now(),
+                            'type': 'image'
+                        }]
+                    
+                    # 获取文本内容
+                    text_element = latest_message.find_element(By.XPATH, ".//div[contains(@class, 'richTextContainer')]")
+                    content = text_element.get_attribute('innerText')
+                    
+                    # 清理消息内容
+                    cleaned_content = self.clean_message_content(content)
+                    if not cleaned_content.strip():
+                        return []
+                    
+                    # 如果已经发送过这条消息，则跳过
+                    if group_name in self.last_message_content and self.last_message_content[group_name] == cleaned_content:
+                        return []
+                    
+                    # 更新最后发送的消息内容
+                    self.last_message_content[group_name] = cleaned_content
+                    
+                    return [{
+                        'content': cleaned_content,
+                        'time': datetime.now(),
+                        'type': 'text'
+                    }]
+                    
+                except Exception as e:
+                    log_manager.error(f"解析消息内容失败: {str(e)}")
+                    return []
+                    
             except Exception as e:
                 log_manager.error(f"获取消息列表失败: {str(e)}")
                 return []
                 
-            if messages:
-                self.last_message_time[group_name] = messages[-1]['time']
-                
-            return messages
-            
         except Exception as e:
             log_manager.error(f"获取群组 {group_name} 消息失败: {str(e)}")
             return []
+            
+    def clean_message_content(self, content):
+        """清理消息内容，处理特殊字符和emoji"""
+        try:
+            if not content:
+                return ""
+                
+            # 移除emoji表情
+            emoji_pattern = re.compile("["
+                u"\U0001F600-\U0001F64F"  # emoticons
+                u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                u"\U00002702-\U000027B0"
+                u"\U000024C2-\U0001F251"
+                "]+", flags=re.UNICODE)
+            
+            # 清理emoji
+            cleaned_text = emoji_pattern.sub('', content)
+            # 移除多余的空格
+            cleaned_text = ' '.join(cleaned_text.split())
+            return cleaned_text.strip()
+            
+        except Exception as e:
+            log_manager.error(f"清理消息内容失败: {str(e)}")
+            return content.strip()
             
     def forward_message(self, message, target_group):
         """转发消息到目标群"""
@@ -131,10 +171,23 @@ class FeishuMonitor:
                 
             # 点击进入目标群
             group.click()
-            time.sleep(1)  # 减少等待时间
+            time.sleep(1)
             
             try:
-                # 定位输入框区域
+                # 如果是图片消息，发送[图片]文本
+                if message.get('type') == 'image':
+                    input_area = WebDriverWait(self.driver, 5).until(
+                        EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'innerdocbody')]"))
+                    )
+                    input_area.click()
+                    time.sleep(0.2)
+                    input_area.send_keys("[图片]")
+                    time.sleep(0.3)
+                    input_area.send_keys(Keys.ENTER)
+                    log_manager.info(f"图片消息已转发到群 [{target_group}]")
+                    return True
+                
+                # 文本消息处理
                 input_area = WebDriverWait(self.driver, 5).until(
                     EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'innerdocbody')]"))
                 )
@@ -143,19 +196,26 @@ class FeishuMonitor:
                 input_area.click()
                 time.sleep(0.2)
                 
+                # 清理消息内容
+                cleaned_content = self.clean_message_content(message['content'])
+                if not cleaned_content:
+                    log_manager.warning("消息内容为空，跳过发送")
+                    return False
+                
                 # 输入消息
-                input_area.send_keys(message['content'])
-                time.sleep(0.3)  # 短暂等待确保消息输入完成
+                input_area.send_keys(cleaned_content)
+                time.sleep(0.3)
                 
-                # 发送消息 (模拟Enter键)
+                # 发送消息
                 input_area.send_keys(Keys.ENTER)
-                time.sleep(0.2)  # 等待消息发送
+                time.sleep(0.2)
                 
-                log_manager.info(f"消息已转发到群 [{target_group}]: {message['content'][:50]}...")
+                log_manager.info(f"消息已转发到群 [{target_group}]: {cleaned_content[:50]}...")
                 return True
                 
             except Exception as e:
                 log_manager.error(f"发送消息失败: {str(e)}")
+                log_manager.error(f"原始消息内容: {message['content']}")
                 return False
                 
         except Exception as e:
