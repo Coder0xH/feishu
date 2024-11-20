@@ -324,3 +324,96 @@ Stacktrace:
 2024-11-20 17:58:51,419 - feishu_sync - INFO - 监控已停止
 2024-11-20 17:58:51,420 - feishu_sync - INFO - 停止监控
 2024-11-20 17:58:52,262 - feishu_sync - ERROR - 获取消息列表失败: 'NoneType' object has no attribute 'find_elements'
+2024-11-20 19:50:38,522 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 19:50:41,219 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 19:51:06,305 - feishu_sync - INFO - 登录成功
+2024-11-20 19:51:06,306 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 19:51:19,489 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: ai16z...
+2024-11-20 19:52:49,425 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 19:52:51,355 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 19:53:18,357 - feishu_sync - INFO - 登录成功
+2024-11-20 19:53:18,358 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 19:53:31,523 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: ai16z...
+2024-11-20 19:55:30,315 - feishu_sync - ERROR - 解析消息内容失败: Message: target frame detached
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x00000001054cbac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001054c4314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104f2c324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000104f174dc cxxbridge1$string$len + 3248
+4   chromedriver                        0x0000000104f152dc core::str::slice_error_fail::ha0e52dbcb60e6bae + 59404
+5   chromedriver                        0x0000000104f15f48 core::str::slice_error_fail::ha0e52dbcb60e6bae + 62584
+6   chromedriver                        0x0000000104f2f9c0 cxxbridge1$string$len + 102804
+7   chromedriver                        0x0000000104f301a8 cxxbridge1$string$len + 104828
+8   chromedriver                        0x0000000104f333e8 cxxbridge1$string$len + 117692
+9   chromedriver                        0x0000000104f33490 cxxbridge1$string$len + 117860
+10  chromedriver                        0x0000000104f705dc cxxbridge1$string$len + 368048
+11  chromedriver                        0x0000000104f66a10 cxxbridge1$string$len + 328164
+12  chromedriver                        0x0000000104faa0fc cxxbridge1$string$len + 604368
+13  chromedriver                        0x0000000104f650b0 cxxbridge1$string$len + 321668
+14  chromedriver                        0x0000000104f65d00 cxxbridge1$string$len + 324820
+15  chromedriver                        0x0000000105496e08 cxxbridge1$str$ptr + 3435328
+16  chromedriver                        0x000000010549a120 cxxbridge1$str$ptr + 3448408
+17  chromedriver                        0x000000010547e17c cxxbridge1$str$ptr + 3333812
+18  chromedriver                        0x000000010549a9e0 cxxbridge1$str$ptr + 3450648
+19  chromedriver                        0x000000010546f988 cxxbridge1$str$ptr + 3274432
+20  chromedriver                        0x00000001054b50f4 cxxbridge1$str$ptr + 3558956
+21  chromedriver                        0x00000001054b5270 cxxbridge1$str$ptr + 3559336
+22  chromedriver                        0x00000001054c3f88 cxxbridge1$str$ptr + 3620032
+23  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 19:55:31,330 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x00000001054cbac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001054c4314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104f2c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104f16424 core::str::slice_error_fail::ha0e52dbcb60e6bae + 63828
+4   chromedriver                        0x0000000104f16354 core::str::slice_error_fail::ha0e52dbcb60e6bae + 63620
+5   chromedriver                        0x0000000104fa9788 cxxbridge1$string$len + 601948
+6   chromedriver                        0x0000000104f650b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000104f65d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x0000000105496e08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010549a120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010547e17c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x000000010549a9e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x000000010546f988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x00000001054b50f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x00000001054b5270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x00000001054c3f88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 19:55:31,331 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 19:55:32,335 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x00000001054cbac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001054c4314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104f2c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104f16424 core::str::slice_error_fail::ha0e52dbcb60e6bae + 63828
+4   chromedriver                        0x0000000104f16354 core::str::slice_error_fail::ha0e52dbcb60e6bae + 63620
+5   chromedriver                        0x0000000104fa9788 cxxbridge1$string$len + 601948
+6   chromedriver                        0x0000000104f650b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000104f65d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x0000000105496e08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010549a120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010547e17c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x000000010549a9e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x000000010546f988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x00000001054b50f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x00000001054b5270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x00000001054c3f88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 19:55:32,335 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 19:55:52,856 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 19:55:55,746 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 19:56:24,741 - feishu_sync - INFO - 登录成功
+2024-11-20 19:56:24,742 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 19:56:37,961 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: ai16z相关性的高位盘 他爱买就买呗...

@@ -104,20 +104,15 @@ class FeishuMonitor:
                     text_element = latest_message.find_element(By.XPATH, ".//div[contains(@class, 'richTextContainer')]")
                     content = text_element.get_attribute('innerText')
                     
-                    # 清理消息内容
-                    cleaned_content = self.clean_message_content(content)
-                    if not cleaned_content.strip():
-                        return []
-                    
                     # 如果已经发送过这条消息，则跳过
-                    if group_name in self.last_message_content and self.last_message_content[group_name] == cleaned_content:
+                    if group_name in self.last_message_content and self.last_message_content[group_name] == content:
                         return []
                     
                     # 更新最后发送的消息内容
-                    self.last_message_content[group_name] = cleaned_content
+                    self.last_message_content[group_name] = content
                     
                     return [{
-                        'content': cleaned_content,
+                        'content': content,
                         'time': datetime.now(),
                         'type': 'text'
                     }]
@@ -133,32 +128,6 @@ class FeishuMonitor:
         except Exception as e:
             log_manager.error(f"获取群组 {group_name} 消息失败: {str(e)}")
             return []
-            
-    def clean_message_content(self, content):
-        """清理消息内容，处理特殊字符和emoji"""
-        try:
-            if not content:
-                return ""
-                
-            # 移除emoji表情
-            emoji_pattern = re.compile("["
-                u"\U0001F600-\U0001F64F"  # emoticons
-                u"\U0001F300-\U0001F5FF"  # symbols & pictographs
-                u"\U0001F680-\U0001F6FF"  # transport & map symbols
-                u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
-                u"\U00002702-\U000027B0"
-                u"\U000024C2-\U0001F251"
-                "]+", flags=re.UNICODE)
-            
-            # 清理emoji
-            cleaned_text = emoji_pattern.sub('', content)
-            # 移除多余的空格
-            cleaned_text = ' '.join(cleaned_text.split())
-            return cleaned_text.strip()
-            
-        except Exception as e:
-            log_manager.error(f"清理消息内容失败: {str(e)}")
-            return content.strip()
             
     def forward_message(self, message, target_group):
         """转发消息到目标群"""
@@ -196,21 +165,15 @@ class FeishuMonitor:
                 input_area.click()
                 time.sleep(0.2)
                 
-                # 清理消息内容
-                cleaned_content = self.clean_message_content(message['content'])
-                if not cleaned_content:
-                    log_manager.warning("消息内容为空，跳过发送")
-                    return False
-                
                 # 输入消息
-                input_area.send_keys(cleaned_content)
+                input_area.send_keys(message['content'])
                 time.sleep(0.3)
                 
                 # 发送消息
                 input_area.send_keys(Keys.ENTER)
                 time.sleep(0.2)
                 
-                log_manager.info(f"消息已转发到群 [{target_group}]: {cleaned_content[:50]}...")
+                log_manager.info(f"消息已转发到群 [{target_group}]: {message['content'][:50]}...")
                 return True
                 
             except Exception as e:
