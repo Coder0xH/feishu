@@ -2480,3 +2480,713 @@ UFO也来了。。
 2024-11-20 14:37:16,952 - feishu_sync - ERROR - 监控过程发生错误: 'FeishuMonitor' object has no attribute 'is_login_confirmed'
 2024-11-20 14:37:22,400 - feishu_sync - ERROR - 监控过程发生错误: 'FeishuMonitor' object has no attribute 'is_login_confirmed'
 2024-11-20 14:41:48,279 - feishu_sync - ERROR - 监控过程发生错误: 'FeishuMonitor' object has no attribute 'is_login_confirmed'
+2024-11-20 17:11:02,985 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:11:08,207 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:11:39,200 - feishu_sync - INFO - 登录成功
+2024-11-20 17:11:39,201 - feishu_sync - INFO - 浏览器启动成功，请开始监控
+2024-11-20 17:17:23,043 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:17:26,283 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:18:05,764 - feishu_sync - INFO - 登录成功
+2024-11-20 17:18:05,765 - feishu_sync - INFO - 开始监控消息...
+2024-11-20 17:18:05,765 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:18:15,823 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:18:15,824 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:18:30,854 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:18:30,854 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:18:45,871 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:18:45,871 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:18:50,031 - feishu_sync - INFO - 开始监控消息...
+2024-11-20 17:19:00,047 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:19:00,048 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:19:10,075 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:19:10,075 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:19:20,115 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:19:20,120 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:19:30,127 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:19:30,128 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:19:40,134 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:19:40,136 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:19:50,140 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:19:50,140 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:20:00,179 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010518fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105188314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104bf04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104c34898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104c6e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104c290b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104c29d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010515ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010515e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010514217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010515e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105133988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001051790f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105179270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105187f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:20:00,182 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:20:00,547 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'clear'
+2024-11-20 17:20:00,548 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:23:46,088 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:23:49,266 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:24:18,362 - feishu_sync - INFO - 登录成功
+2024-11-20 17:24:18,363 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:24:18,363 - feishu_sync - INFO - 开始监控消息...
+2024-11-20 17:24:28,421 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010505fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105058314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104ac04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104b04898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104b3e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104af90b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104af9d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010502ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010502e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010501217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010502e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105003988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001050490f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105049270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105057f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:24:28,421 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:24:43,474 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010505fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105058314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104ac04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104b04898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104b3e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104af90b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104af9d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010502ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010502e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010501217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010502e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105003988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001050490f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105049270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105057f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:24:43,474 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:24:58,509 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010505fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105058314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104ac04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104b04898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104b3e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104af90b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104af9d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010502ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010502e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010501217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010502e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105003988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001050490f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105049270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105057f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:24:58,510 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:25:13,676 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._3d8e3af0"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010505fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105058314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104ac04b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104b04898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104b3e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104af90b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104af9d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010502ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010502e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010501217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010502e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000105003988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001050490f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105049270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105057f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:25:13,680 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 17:25:18,015 - feishu_sync - INFO - 监控已停止
+2024-11-20 17:25:18,016 - feishu_sync - INFO - 停止监控
+2024-11-20 17:25:18,688 - feishu_sync - INFO - 开始监控消息
+2024-11-20 17:25:39,666 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:25:42,528 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:26:08,643 - feishu_sync - INFO - 登录成功
+2024-11-20 17:26:08,644 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:26:08,644 - feishu_sync - INFO - 开始监控消息...
+2024-11-20 17:26:14,927 - feishu_sync - ERROR - 解析消息失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c15398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000102c173e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000102c17490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102c545dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:14,940 - feishu_sync - ERROR - 解析消息失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c15398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000102c173e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000102c17490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102c545dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:14,947 - feishu_sync - ERROR - 解析消息失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c15398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000102c173e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000102c17490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102c545dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:14,952 - feishu_sync - ERROR - 解析消息失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c15398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000102c173e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000102c17490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102c545dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:15,245 - feishu_sync - ERROR - 解析消息失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c15398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000102c173e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000102c17490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102c545dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:25,285 - feishu_sync - ERROR - 解析消息失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":".message-time"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c54898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+5   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+6   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:35,373 - feishu_sync - ERROR - 解析消息失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":".message-time"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c54898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+5   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+6   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:45,397 - feishu_sync - ERROR - 解析消息失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":".message-time"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c54898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+5   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+6   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:55,446 - feishu_sync - ERROR - 解析消息失败: Message: no such element: Unable to locate element: {"method":"css selector","selector":".message-time"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c104b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102c54898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102c4aa10 cxxbridge1$string$len + 328164
+5   chromedriver                        0x0000000102c8e0fc cxxbridge1$string$len + 604368
+6   chromedriver                        0x0000000102c490b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:55,607 - feishu_sync - ERROR - 解析消息失败: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001031afac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001031a8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102c10324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000102c48e50 cxxbridge1$string$len + 321060
+4   chromedriver                        0x0000000102c49d00 cxxbridge1$string$len + 324820
+5   chromedriver                        0x000000010317ae08 cxxbridge1$str$ptr + 3435328
+6   chromedriver                        0x000000010317e120 cxxbridge1$str$ptr + 3448408
+7   chromedriver                        0x000000010316217c cxxbridge1$str$ptr + 3333812
+8   chromedriver                        0x000000010317e9e0 cxxbridge1$str$ptr + 3450648
+9   chromedriver                        0x0000000103153988 cxxbridge1$str$ptr + 3274432
+10  chromedriver                        0x00000001031990f4 cxxbridge1$str$ptr + 3558956
+11  chromedriver                        0x0000000103199270 cxxbridge1$str$ptr + 3559336
+12  chromedriver                        0x00000001031a7f88 cxxbridge1$str$ptr + 3620032
+13  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+14  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:26:55,608 - feishu_sync - INFO - 监控已停止
+2024-11-20 17:26:55,609 - feishu_sync - INFO - 停止监控
+2024-11-20 17:26:55,610 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.101/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113e74830>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:26:55,612 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.102/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e582360>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:26:55,615 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.103/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e582cf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:26:55,617 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.104/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e583680>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:26:55,620 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.105/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e583680>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:26:55,621 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.106/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e582cf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:26:55,624 - feishu_sync - ERROR - 解析消息失败: HTTPConnectionPool(host='localhost', port=65129): Max retries exceeded with url: /session/31b60ccd5e2dfc0dd0ec396325596cef/element/f.C7AF769FAA9E9971FE0C7973538FB617.d.F6087674A3F91ED7501C8D2FD22137B3.e.107/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e581f20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 17:27:49,620 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:27:52,851 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:28:22,173 - feishu_sync - INFO - 登录成功
+2024-11-20 17:28:22,174 - feishu_sync - INFO - 开始监控消息...
+2024-11-20 17:28:22,174 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:28:33,344 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_2b17aec6'][text()='Yay-0xsun']"}
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001033d3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001033cc314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102e344b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102e78898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102eb20fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000102e6d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102e6dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010339ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x00000001033a2120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010338617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x00000001033a29e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000103377988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001033bd0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001033bd270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001033cbf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:28:33,345 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:28:48,613 - feishu_sync - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001033d3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001033cc314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102e344b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102e78898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102eb20fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000102e6d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102e6dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010339ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x00000001033a2120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010338617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x00000001033a29e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000103377988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001033bd0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001033bd270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001033cbf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:29:02,092 - feishu_sync - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001033d3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001033cc314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102e344b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102e78898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102eb20fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000102e6d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102e6dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010339ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x00000001033a2120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010338617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x00000001033a29e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000103377988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001033bd0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001033bd270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001033cbf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:29:14,109 - feishu_sync - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001033d3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001033cc314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102e344b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102e78898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102eb20fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000102e6d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102e6dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010339ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x00000001033a2120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010338617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x00000001033a29e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000103377988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001033bd0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001033bd270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001033cbf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:29:25,465 - feishu_sync - INFO - 监控已停止
+2024-11-20 17:29:25,466 - feishu_sync - INFO - 停止监控
+2024-11-20 17:29:25,774 - feishu_sync - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001033d3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001033cc314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102e344b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102e78898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000102eb20fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000102e6d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102e6dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010339ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x00000001033a2120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010338617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x00000001033a29e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000103377988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001033bd0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001033bd270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001033cbf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 17:29:25,784 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,784 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,784 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,785 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,785 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,785 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,785 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,785 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,786 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 查找群组 Yay-0xsun 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 17:29:25,787 - feishu_sync - ERROR - 未找到目标群: Yay-0xsun
+2024-11-20 17:29:30,793 - feishu_sync - INFO - 开始监控消息
+2024-11-20 17:30:16,944 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 17:30:19,059 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 17:30:47,302 - feishu_sync - INFO - 登录成功
+2024-11-20 17:30:47,303 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 17:30:47,303 - feishu_sync - INFO - 开始监控消息...

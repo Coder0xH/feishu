@@ -11,15 +11,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 
-logger = logging.getLogger(__name__)
+from ..config.group_mapping import GroupMappingConfig
+from ..utils.logger import log_manager
 
 class FeishuMonitor:
     """飞书监控类"""
     
-    def __init__(self, source_groups, target_group):
+    def __init__(self, source_groups: list, group_mapping_config: GroupMappingConfig):
         """初始化"""
         self.source_groups = source_groups
-        self.target_group = target_group
+        self.group_mapping_config = group_mapping_config
         self.is_running = False
         self.driver = None
         self.last_message_time = {}  # 用于存储每个群的最后消息时间
@@ -39,160 +40,164 @@ class FeishuMonitor:
             
             # 打开飞书
             self.driver.get("https://www.feishu.cn/messenger/")
-            logger.info("浏览器已启动，请扫码登录...")
+            log_manager.info("浏览器已启动，请扫码登录...")
             
             # 等待消息列表出现，表示登录成功
             WebDriverWait(self.driver, 300).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "_2b17aec6"))
             )
-            logger.info("登录成功")
+            log_manager.info("登录成功")
             return True
             
         except Exception as e:
-            logger.error(f"启动浏览器失败: {str(e)}")
+            log_manager.error(f"启动浏览器失败: {str(e)}")
             if self.driver:
                 self.driver.quit()
             return False
-        
+            
     def find_group_by_name(self, group_name):
-        """
-        通过群名查找群
-        :param group_name: 群名
-        :return: 群元素
-        """
+        """查找群组"""
         try:
-            # 使用特定的类名和文本内容查找群组
-            groups = self.driver.find_elements(By.CLASS_NAME, "_2b17aec6")
-            for group in groups:
-                if group.text == group_name:
-                    return group
-                    
-            # 如果直接查找失败，尝试使用XPath
-            xpath = f"//*[contains(@class, '_2b17aec6') and text()='{group_name}']"
-            return WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, xpath))
-            )
+            # 直接使用XPath查找群组元素
+            xpath = f"//div[@class='_2b17aec6'][text()='{group_name}']"
+            group = self.driver.find_element(By.XPATH, xpath)
+            return group
+            
         except Exception as e:
-            logger.error(f"查找群 {group_name} 失败: {str(e)}")
+            log_manager.error(f"查找群组 {group_name} 失败: {str(e)}")
             return None
             
-    def get_messages(self, group):
-        """
-        获取群消息
-        :param group: 群元素
-        :return: 消息列表
-        """
+    def get_new_messages(self, group_name):
+        """获取群组新消息"""
         try:
-            # 点击进入群
+            group = self.find_group_by_name(group_name)
+            if not group:
+                log_manager.error(f"未找到群组: {group_name}")
+                return []
+                
+            # 点击进入群组
             group.click()
-            time.sleep(1)  # 等待消息加载
+            time.sleep(1)  # 等待群组加载
             
-            # 获取消息元素
-            message_elements = self.driver.find_elements(By.CSS_SELECTOR, '[class*="message-content"]')
+            # 获取消息列表
             messages = []
-            
-            for msg_elem in message_elements:
-                try:
-                    # 获取消息时间戳
-                    timestamp_elem = msg_elem.find_element(By.XPATH, './ancestor::div[contains(@class, "msg-item")]//time')
-                    msg_time = timestamp_elem.get_attribute('title')  # 获取完整的时间字符串
-                    msg_timestamp = datetime.strptime(msg_time, "%Y-%m-%d %H:%M:%S")
-                    
-                    # 获取消息内容
-                    msg_text = msg_elem.text.strip()
-                    
-                    if msg_text:
-                        messages.append({
-                            'text': msg_text,
-                            'timestamp': msg_timestamp
-                        })
-                except Exception as e:
-                    logger.error(f"处理单条消息时出错: {str(e)}")
-                    continue
-            
-            # 按时间戳排序
-            messages.sort(key=lambda x: x['timestamp'])
-            
-            # 筛选新消息
-            group_name = group.text
-            last_time = self.last_message_time.get(group_name)
-            new_messages = []
-            
-            for msg in messages:
-                if not last_time or msg['timestamp'] > last_time:
-                    new_messages.append(msg['text'])
-                    self.last_message_time[group_name] = msg['timestamp']
-            
-            return new_messages
+            try:
+                # 使用XPath查找消息元素
+                message_elements = self.driver.find_elements(By.XPATH, "//span[@class='text-only']")
+                
+                for msg_element in message_elements:
+                    try:
+                        # 获取消息内容
+                        content = msg_element.get_attribute('innerText')
+                        if not content:
+                            continue
+                            
+                        # 使用当前时间作为消息时间
+                        msg_time = datetime.now()
+                        
+                        # 如果是新消息则添加到列表
+                        if group_name not in self.last_message_time or msg_time > self.last_message_time[group_name]:
+                            messages.append({
+                                'content': content,
+                                'time': msg_time
+                            })
+                            
+                    except Exception as e:
+                        log_manager.error(f"解析消息失败: {str(e)}")
+                        continue
+                        
+            except Exception as e:
+                log_manager.error(f"获取消息列表失败: {str(e)}")
+                return []
+                
+            if messages:
+                self.last_message_time[group_name] = messages[-1]['time']
+                
+            return messages
             
         except Exception as e:
-            logger.error(f"获取消息失败: {str(e)}")
+            log_manager.error(f"获取群组 {group_name} 消息失败: {str(e)}")
             return []
             
-    def forward_message(self, message, target_group_name):
-        """
-        转发消息
-        :param message: 消息内容
-        :param target_group_name: 目标群名
-        """
+    def forward_message(self, message, target_group):
+        """转发消息到目标群"""
         try:
-            # 查找并进入目标群
-            target_group = self.find_group_by_name(target_group_name)
-            if target_group:
-                target_group.click()
-                time.sleep(1)
+            # 查找目标群
+            group = self.find_group_by_name(target_group)
+            if not group:
+                log_manager.error(f"未找到目标群: {target_group}")
+                return False
                 
-                # 找到输入框并发送消息
-                input_box = WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, '[contenteditable="true"]'))
+            # 点击进入目标群
+            group.click()
+            time.sleep(2)  # 增加等待时间，确保群组完全加载
+            
+            try:
+                # 使用更精确的XPath定位输入框区域
+                input_area = WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'editor-kit-container')]//div[@contenteditable='true']"))
                 )
-                input_box.clear()
-                input_box.send_keys(message)
-                time.sleep(0.5)
-                input_box.send_keys(Keys.ENTER)
                 
-                logger.info(f"消息转发成功")
+                # 确保输入框可见并聚焦
+                self.driver.execute_script("arguments[0].scrollIntoView(true);", input_area)
+                input_area.click()
+                time.sleep(0.5)  # 等待输入框聚焦
+                
+                # 清空输入框并输入消息
+                input_area.clear()
+                # 使用JavaScript直接设置内容
+                self.driver.execute_script("arguments[0].innerHTML = arguments[1]", input_area, message['content'])
+                time.sleep(0.5)  # 等待内容设置完成
+                
+                # 模拟按Enter键发送消息
+                input_area.send_keys(Keys.ENTER)
+                
+                log_manager.info(f"消息已转发到群 [{target_group}]: {message['content'][:50]}...")
+                time.sleep(1)  # 等待消息发送完成
+                return True
+                
+            except Exception as e:
+                log_manager.error(f"发送消息失败: {str(e)}")
+                return False
                 
         except Exception as e:
-            logger.error(f"转发消息失败: {str(e)}")
+            log_manager.error(f"转发消息到群 {target_group} 失败: {str(e)}")
+            return False
             
-    def start_monitoring(self):
-        """开始监控消息"""
-        try:
-            self.is_running = True
-            logger.info("开始监控消息...")
-            
-            # 初始化每个源群的最后消息时间
-            for source_group in self.source_groups:
-                self.last_message_time[source_group] = datetime.now()
-            
-            # 开始监控
-            while self.is_running:
+    def start(self):
+        """开始监控"""
+        self.is_running = True
+        log_manager.info("开始监控消息...")
+        
+        while self.is_running:
+            try:
                 for source_group in self.source_groups:
-                    if not self.is_running:
-                        break
+                    # 获取新消息
+                    messages = self.get_new_messages(source_group)
+                    if not messages:
+                        continue
                         
-                    group = self.find_group_by_name(source_group)
-                    if group:
-                        messages = self.get_messages(group)
-                        for message in messages:
-                            if not self.is_running:
-                                break
-                            self.forward_message(message, self.target_group)
-                    
-                    time.sleep(5)  # 避免过于频繁的检查
+                    # 获取目标群列表
+                    target_groups = self.group_mapping_config.get_target_groups(source_group)
+                    if not target_groups:
+                        log_manager.warning(f"群组 {source_group} 未配置目标群")
+                        continue
+                        
+                    # 转发消息到所有目标群
+                    for message in messages:
+                        for target_group in target_groups:
+                            self.forward_message(message, target_group)
+                            
+                time.sleep(5)  # 等待一段时间再次检查
                 
-        except Exception as e:
-            logger.error(f"监控过程发生错误: {str(e)}")
-            raise
-            
-    def stop_monitoring(self):
+            except Exception as e:
+                log_manager.error(f"监控过程发生错误: {str(e)}")
+                time.sleep(10)  # 发生错误时等待较长时间
+                
+    def stop(self):
         """停止监控"""
         self.is_running = False
-        logger.info("停止监控消息")
-        
-    def cleanup(self):
-        """清理资源"""
         if self.driver:
             self.driver.quit()
-            logger.info("浏览器已关闭")
+            self.driver = None
+        log_manager.info("监控已停止")
