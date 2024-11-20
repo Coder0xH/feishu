@@ -1,0 +1,2482 @@
+2024-11-20 13:53:42,669 - INFO - 请在浏览器中完成登录...
+2024-11-20 13:53:45,039 - ERROR - 登录失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x0000000102b67ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b60314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001025c84b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x00000001025a3994 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x0000000102632890 cxxbridge1$string$len + 524388
+5   chromedriver                        0x000000010264576c cxxbridge1$string$len + 601920
+6   chromedriver                        0x00000001026010b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000102601d00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x0000000102b32e08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x0000000102b36120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x0000000102b1a17c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x0000000102b369e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x0000000102b0b988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x0000000102b510f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x0000000102b51270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x0000000102b5ff88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 13:53:45,040 - ERROR - 程序发生错误: 登录失败
+2024-11-20 13:58:26,189 - INFO - 请在浏览器中完成登录...
+2024-11-20 13:58:29,127 - ERROR - 登录失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x0000000103053ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x000000010304c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102ab44b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102a8f994 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x0000000102b1e890 cxxbridge1$string$len + 524388
+5   chromedriver                        0x0000000102b3176c cxxbridge1$string$len + 601920
+6   chromedriver                        0x0000000102aed0b0 cxxbridge1$string$len + 321668
+7   chromedriver                        0x0000000102aedd00 cxxbridge1$string$len + 324820
+8   chromedriver                        0x000000010301ee08 cxxbridge1$str$ptr + 3435328
+9   chromedriver                        0x0000000103022120 cxxbridge1$str$ptr + 3448408
+10  chromedriver                        0x000000010300617c cxxbridge1$str$ptr + 3333812
+11  chromedriver                        0x00000001030229e0 cxxbridge1$str$ptr + 3450648
+12  chromedriver                        0x0000000102ff7988 cxxbridge1$str$ptr + 3274432
+13  chromedriver                        0x000000010303d0f4 cxxbridge1$str$ptr + 3558956
+14  chromedriver                        0x000000010303d270 cxxbridge1$str$ptr + 3559336
+15  chromedriver                        0x000000010304bf88 cxxbridge1$str$ptr + 3620032
+16  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 13:58:40,068 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11083da90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/37f1b3df6ef3d8940eb7b12b50dc1df6
+2024-11-20 13:58:40,069 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11083de50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/37f1b3df6ef3d8940eb7b12b50dc1df6
+2024-11-20 13:58:40,069 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1108450f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/37f1b3df6ef3d8940eb7b12b50dc1df6
+2024-11-20 13:58:53,671 - INFO - 请在浏览器中完成登录...
+2024-11-20 13:58:59,897 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-20 13:59:00,350 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10adba210>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/798d184dcf37f35ea7d29fb029e62fea/element
+2024-11-20 13:59:00,351 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10adc4b00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/798d184dcf37f35ea7d29fb029e62fea/element
+2024-11-20 13:59:00,352 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10adc4e90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/798d184dcf37f35ea7d29fb029e62fea/element
+2024-11-20 13:59:00,353 - ERROR - 登录失败: HTTPConnectionPool(host='localhost', port=57965): Max retries exceeded with url: /session/798d184dcf37f35ea7d29fb029e62fea/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ad5f890>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-20 13:59:00,354 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ad76580>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/798d184dcf37f35ea7d29fb029e62fea
+2024-11-20 13:59:00,355 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ad767a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/798d184dcf37f35ea7d29fb029e62fea
+2024-11-20 13:59:00,356 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ad76ad0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/798d184dcf37f35ea7d29fb029e62fea
+2024-11-20 14:00:16,894 - INFO - 请在浏览器中完成登录...
+2024-11-20 14:00:41,965 - INFO - 登录成功
+2024-11-20 14:00:43,127 - INFO - 新消息: 四爷：还有一只冷兔，归零了
+2024-11-20 14:00:43,142 - INFO - 新消息: Inflame：救救bkkt
+2024-11-20 14:00:43,158 - INFO - 新消息: WikW（好运连连版：[回复][mtl6906]:
+果然swag得卖掉 牛市拿这东西太浪费了…
+回复:为啥 eth拿着有啥用吗
+2024-11-20 14:00:43,182 - INFO - 新消息: WikW（好运连连版：不如拿着价值币
+2024-11-20 14:00:43,247 - INFO - 新消息: yang（陈刀仔版：救救bkkt
+2024-11-20 14:00:43,265 - INFO - 新消息: 天命大师兄：ora是啥
+2024-11-20 14:00:43,279 - INFO - 新消息: Lh：ora是啥
+2024-11-20 14:00:43,293 - INFO - 新消息: 功勋：olm那个
+2024-11-20 14:00:43,306 - INFO - 新消息: 沐沐：600M
+2024-11-20 14:00:43,321 - INFO - 新消息: mtl6906：卖了买elite了…感觉现在这个行情 就适合大资金作战…
+2024-11-20 14:00:43,334 - INFO - 新消息: B1gsn：只有1%流通吗
+2024-11-20 14:00:43,348 - INFO - 新消息: 天命大师兄：算了 怕
+2024-11-20 14:00:43,363 - INFO - 新消息: 吝啬鬼：https://x.com/3LAU
+2024-11-20 14:00:43,375 - INFO - 新消息: 吝啬鬼：这个人牛逼吗
+2024-11-20 14:00:43,389 - INFO - 新消息: Mr.Z：很多大单在冲
+2024-11-20 14:00:43,402 - INFO - 新消息: mtl6906：[回复][Mr.Z]:
+很多大单在冲
+回复:冲什么
+2024-11-20 14:00:43,415 - INFO - 新消息: Mr.Z：ORA
+2024-11-20 14:00:43,429 - INFO - 新消息: 功勋：[回复][带带带金狗]:
+https://x.com/3LAU
+回复:好流弊的关注列表
+2024-11-20 14:00:43,480 - INFO - 新消息: 功勋：甚至能看到SBF
+2024-11-20 14:00:43,492 - INFO - 新消息: Nsv1：这是以太坊远古鲸鱼
+2024-11-20 14:00:43,507 - INFO - 新消息: Tiny：这个？
+2024-11-20 14:00:43,519 - INFO - 新消息: Tiny：在冲
+2024-11-20 14:00:43,533 - INFO - 新消息: Nsv1：印象中好像是的
+2024-11-20 14:01:12,976 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x120139bd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a62ba6a54966f639b4dce3288732d25a
+2024-11-20 14:01:12,978 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x120139e50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a62ba6a54966f639b4dce3288732d25a
+2024-11-20 14:01:12,979 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1201450f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a62ba6a54966f639b4dce3288732d25a
+2024-11-20 14:01:56,765 - INFO - 请在浏览器中完成登录...
+2024-11-20 14:02:32,696 - INFO - 登录成功
+2024-11-20 14:02:33,805 - INFO - 新消息: Technoking：小孩儿哥和他10607个未曾谋面的义父
+2024-11-20 14:02:33,824 - INFO - 新消息: xu：[破涕为笑]
+2024-11-20 14:02:33,841 - INFO - 新消息: 吴小强：右下角360跳出来了
+2024-11-20 14:02:33,856 - INFO - 新消息: Dean：我要笑死
+2024-11-20 14:02:33,871 - INFO - 新消息: bubblebubble：哈哈哈哈哈
+2024-11-20 14:02:33,886 - INFO - 新消息: xu：。。。
+2024-11-20 14:02:33,901 - INFO - 新消息: B1gsn：哈哈哈哈哈哈哈哈哈哈哈
+2024-11-20 14:02:33,914 - INFO - 新消息: Panx：哈哈哈
+2024-11-20 14:02:33,928 - INFO - 新消息: 吴小强：dev在转发群吗 关一下
+2024-11-20 14:02:33,943 - INFO - 新消息: 恋：360忘记关了
+2024-11-20 14:02:33,985 - INFO - 新消息: xu：哈哈哈哈钻地了要
+2024-11-20 14:02:34,021 - INFO - 新消息: Panx：国人
+2024-11-20 14:02:34,035 - INFO - 新消息: Panx：也敢发币？
+2024-11-20 14:02:34,048 - INFO - 新消息: B1gsn：OKX整天上的是什么东西
+2024-11-20 14:02:34,063 - INFO - 新消息: 梭哈：昨天的lo还可以
+2024-11-20 14:02:45,355 - INFO - 消息发送成功: Technoking：小孩儿哥和他10607个未曾谋面的义父...
+2024-11-20 14:02:46,101 - INFO - 消息发送成功: xu：[破涕为笑]...
+2024-11-20 14:02:46,815 - INFO - 消息发送成功: 吴小强：右下角360跳出来了...
+2024-11-20 14:02:47,491 - INFO - 消息发送成功: Dean：我要笑死...
+2024-11-20 14:02:48,186 - INFO - 消息发送成功: bubblebubble：哈哈哈哈哈...
+2024-11-20 14:02:48,858 - INFO - 消息发送成功: xu：。。。...
+2024-11-20 14:02:49,527 - INFO - 消息发送成功: B1gsn：哈哈哈哈哈哈哈哈哈哈哈...
+2024-11-20 14:02:50,207 - INFO - 消息发送成功: Panx：哈哈哈...
+2024-11-20 14:02:50,883 - INFO - 消息发送成功: 吴小强：dev在转发群吗 关一下...
+2024-11-20 14:02:51,551 - INFO - 消息发送成功: 恋：360忘记关了...
+2024-11-20 14:02:52,223 - INFO - 消息发送成功: xu：哈哈哈哈钻地了要...
+2024-11-20 14:02:52,939 - INFO - 消息发送成功: Panx：国人...
+2024-11-20 14:02:53,610 - INFO - 消息发送成功: Panx：也敢发币？...
+2024-11-20 14:02:54,339 - INFO - 消息发送成功: B1gsn：OKX整天上的是什么东西...
+2024-11-20 14:02:55,022 - INFO - 消息发送成功: 梭哈：昨天的lo还可以...
+2024-11-20 14:02:58,275 - INFO - 新消息: oxb：[回复][恋]:
+图片
+回复:真给我笑死
+2024-11-20 14:03:00,039 - INFO - 消息发送成功: oxb：[回复][恋]:
+图片
+回复:真给我笑死...
+2024-11-20 14:03:26,357 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,392 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,399 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,407 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,412 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,416 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,421 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,425 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,481 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,488 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,510 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,516 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,530 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,535 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,539 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,543 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,548 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,552 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,565 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,569 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,573 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,579 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,582 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,587 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,592 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:26,598 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:03:39,823 - INFO - 新消息: 小K：想看看世界多疯狂
+2024-11-20 14:03:39,840 - INFO - 新消息: 何多多：[@at,nickname=??,wxid=wxid_mut5l8twh1r812]  哥你97年这么有钱吗
+2024-11-20 14:03:39,854 - INFO - 新消息: Panx：我2012的哥
+2024-11-20 14:03:39,874 - INFO - 新消息: JayChan：？
+2024-11-20 14:03:39,890 - INFO - 新消息: 灵修：啊？
+2024-11-20 14:03:39,905 - INFO - 新消息: Dean：这好像真是小胖和她妈啊
+2024-11-20 14:03:39,922 - INFO - 新消息: Panx：怎么炒到他家人了？
+2024-11-20 14:03:39,936 - INFO - 新消息: Dean：哈哈哈哈
+2024-11-20 14:03:39,952 - INFO - 新消息: 刘晨：早上就有个了
+2024-11-20 14:03:39,968 - INFO - 新消息: Dean：早上那个假
+2024-11-20 14:03:39,987 - INFO - 新消息: 无缺：酱紫速通？
+2024-11-20 14:03:40,003 - INFO - 新消息: xu：这quant  又给profit这小逼出爽了 干
+2024-11-20 14:03:40,017 - INFO - 新消息: Sam.tt：这quant  又给profit这小逼出爽了 干
+2024-11-20 14:03:40,032 - INFO - 新消息: Sam.tt：又是残影出货大法
+2024-11-20 14:03:41,931 - INFO - 消息发送成功: 小K：想看看世界多疯狂...
+2024-11-20 14:03:42,660 - INFO - 消息发送成功: 何多多：[@at,nickname=??,wxid=wxid_mut5l8twh1r812]  哥你...
+2024-11-20 14:03:43,356 - INFO - 消息发送成功: Panx：我2012的哥...
+2024-11-20 14:03:44,024 - INFO - 消息发送成功: JayChan：？...
+2024-11-20 14:03:44,673 - INFO - 消息发送成功: 灵修：啊？...
+2024-11-20 14:03:45,333 - INFO - 消息发送成功: Dean：这好像真是小胖和她妈啊...
+2024-11-20 14:03:45,995 - INFO - 消息发送成功: Panx：怎么炒到他家人了？...
+2024-11-20 14:03:46,648 - INFO - 消息发送成功: Dean：哈哈哈哈...
+2024-11-20 14:03:47,304 - INFO - 消息发送成功: 刘晨：早上就有个了...
+2024-11-20 14:03:47,970 - INFO - 消息发送成功: Dean：早上那个假...
+2024-11-20 14:03:48,638 - INFO - 消息发送成功: 无缺：酱紫速通？...
+2024-11-20 14:03:49,330 - INFO - 消息发送成功: xu：这quant  又给profit这小逼出爽了 干...
+2024-11-20 14:03:50,116 - INFO - 消息发送成功: Sam.tt：这quant  又给profit这小逼出爽了 干...
+2024-11-20 14:03:50,818 - INFO - 消息发送成功: Sam.tt：又是残影出货大法...
+2024-11-20 14:04:04,281 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,312 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,320 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,325 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,329 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,333 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,336 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,340 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,344 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,347 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,351 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,355 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,358 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,372 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,378 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,383 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,390 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,396 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,409 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,449 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,453 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,457 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,461 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,470 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,484 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,487 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,491 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,494 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,498 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,501 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,517 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,521 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,524 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,528 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,532 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,535 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,539 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,542 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,546 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,549 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,552 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,561 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:04,564 - ERROR - 处理单条消息时出错: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102609398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x000000010260b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x000000010260b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000102643a5c cxxbridge1$string$len + 348720
+7   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:37,423 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增ADOG
+
+  发布时间：2024-08-08 19:55:07
+2024-11-20 14:04:37,457 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增PGN
+
+  发布时间：2024-08-08 19:55:11
+2024-11-20 14:04:37,552 - INFO - 新消息: 【mexc重要公告】
+
+  mexc永续合约新增MOTHER
+
+  发布时间：2024-08-08 20:15:10
+2024-11-20 14:04:37,564 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增PCK
+
+  发布时间：2024-08-08 20:55:05
+2024-11-20 14:04:37,576 - INFO - 新消息: 【mexc重要公告】
+
+  mexc永续合约新增CATDOG
+
+  发布时间：2024-08-09 11:45:08
+2024-11-20 14:04:37,632 - INFO - 新消息: 【mexc重要公告】
+
+  mexc永续合约新增PDA
+
+  发布时间：2024-08-09 11:45:13
+2024-11-20 14:04:37,645 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增FUKU
+
+  发布时间：2024-08-09 14:15:04
+2024-11-20 14:04:37,671 - INFO - 新消息: 【bingx重要公告】
+
+  bingx现货新增CATCH_OLD
+
+  发布时间：2024-08-09 15:15:05
+2024-11-20 14:04:37,683 - INFO - 新消息: 【bingx重要公告】
+
+  bingx永续合约新增CATCH_OLD
+
+  发布时间：2024-08-09 15:15:14
+2024-11-20 14:04:37,697 - INFO - 新消息: 【gate重要公告】
+
+  gate现货新增HNB
+
+  发布时间：2024-08-09 16:10:09
+2024-11-20 14:04:37,752 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增PEGA
+
+  发布时间：2024-08-09 16:25:05
+2024-11-20 14:04:37,765 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增BTR
+
+  发布时间：2024-08-09 16:25:10
+2024-11-20 14:04:37,779 - INFO - 新消息: 【bybit重要公告】
+
+  bybit永续合约新增MOTHER
+
+  发布时间：2024-08-09 18:00:09
+2024-11-20 14:04:37,794 - INFO - 新消息: 【mexc重要公告】
+
+  mexc现货新增JOBAI
+
+  发布时间：2024-08-10 12:25:06
+2024-11-20 14:04:37,806 - INFO - 新消息: 【bingx重要公告】
+
+  bingx现货新增ULTI
+
+  发布时间：2024-08-10 15:20:05
+2024-11-20 14:04:39,652 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增ADOG
+
+  发布时间：2024-08-08 19:5...
+2024-11-20 14:04:40,478 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增PGN
+
+  发布时间：2024-08-08 19:55...
+2024-11-20 14:04:41,209 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc永续合约新增MOTHER
+
+  发布时间：2024-08-08 ...
+2024-11-20 14:04:42,044 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增PCK
+
+  发布时间：2024-08-08 20:55...
+2024-11-20 14:04:42,928 - ERROR - 发送消息失败: Message: element not interactable
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102604324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000102643740 cxxbridge1$string$len + 347924
+4   chromedriver                        0x00000001026425c4 cxxbridge1$string$len + 343448
+5   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+6   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+7   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+8   chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+9   chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+10  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+11  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+12  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+13  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+14  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+15  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+16  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+17  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:04:52,126 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc永续合约新增PDA
+
+  发布时间：2024-08-09 11:...
+2024-11-20 14:04:52,866 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增FUKU
+
+  发布时间：2024-08-09 14:1...
+2024-11-20 14:04:53,660 - INFO - 消息发送成功: 【bingx重要公告】
+
+  bingx现货新增CATCH_OLD
+
+  发布时间：2024-08-...
+2024-11-20 14:04:54,519 - INFO - 消息发送成功: 【bingx重要公告】
+
+  bingx永续合约新增CATCH_OLD
+
+  发布时间：2024-0...
+2024-11-20 14:04:55,463 - INFO - 消息发送成功: 【gate重要公告】
+
+  gate现货新增HNB
+
+  发布时间：2024-08-09 16:10...
+2024-11-20 14:04:56,316 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增PEGA
+
+  发布时间：2024-08-09 16:2...
+2024-11-20 14:04:57,171 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增BTR
+
+  发布时间：2024-08-09 16:25...
+2024-11-20 14:04:58,039 - INFO - 消息发送成功: 【bybit重要公告】
+
+  bybit永续合约新增MOTHER
+
+  发布时间：2024-08-0...
+2024-11-20 14:04:58,926 - INFO - 消息发送成功: 【mexc重要公告】
+
+  mexc现货新增JOBAI
+
+  发布时间：2024-08-10 12:...
+2024-11-20 14:04:59,910 - INFO - 消息发送成功: 【bingx重要公告】
+
+  bingx现货新增ULTI
+
+  发布时间：2024-08-10 15...
+2024-11-20 14:05:01,043 - INFO - 新消息: Bybit Listing: Bybit to list LUCEUSDT Perpetual Contract
+Bybit 上新: Bybit即将上线LUCEUSDT永续合约
+
+————————————
+2024-11-19 17:11:51
+source: https://www.bybit.com/trade/usdt/LUCEUSDT
+2024-11-20 14:05:01,065 - INFO - 新消息: BWENEWS AUTO: JOE: Token Mill - LIVE!
+方程式新闻自动发布: JOE：Token Mill-现场直播！
+
+
+$JOE
+————————————
+2024-11-19 21:00:13
+2024-11-20 14:05:01,085 - INFO - 新消息: [Sponsored] Bitget Listing: Bitget Will List Ai16zeliza (eliza) in the Innovation, AI and Meme Zone!
+[赞助商] Bitget上新: Bitget将在创新、AI和Meme专区上线Ai16zeliza（eliza）！
+
+
+$AI
+————————————
+2024-11-19 22:22:28
+source: https://www.bitget.com/en/support/articles/12560603818489
+2024-11-20 14:05:01,102 - INFO - 新消息: BWENEWS AUTO: DYDX: Enter the dYdX Unlimited Era: The wait is over
+方程式新闻自动发布: DYDX：进入 dYdX 无限时代：等待已经结束
+
+
+$DYDX
+————————————
+2024-11-19 23:26:30
+2024-11-20 14:05:01,119 - INFO - 新消息: CoinbaseInt Perp Listing: We will add support for @MagicEden $ME pre-launch market on Coinbase International Exchange and Coinbase Advanced. The opening of our ME-PERP pre-launch market will begin on or after 1pm UTC on 20 November 2024. https://t.co/dTeGoGDCgw
+Coinbase国际合约上新: 我们将在 Coinbase International Exchange 和 Coinbase Advanced 上增加对 @MagicEden $ME 预发布市场的支持。我们的 ME-PERP 预发布市场将于 2024 年 11 月 20 日 UTC 时间下午 1 点或之后开放。https://t.co/dTeGoGDCgw
+
+————————————
+2024-11-20 00:29:38
+source: https://twitter.com/CoinbaseIntExch/status/1858910509892071488
+2024-11-20 14:05:01,136 - INFO - 新消息: AggrNews: COINBASE DELISTS WBTC: BLOG
+AggrNews: Coinbase 下架 WBTC：博客
+
+————————————
+2024-11-20 01:15:16
+source: https://twitter.com/AggrNews/status/1858921994202607864
+2024-11-20 14:05:01,153 - INFO - 新消息: Tree News: *BITCOIN SETS A RECORD HIGH OF MORE THAN $93,500: BBG
+Tree News: *比特币创下超过 93,500 美元的历史新高：BBG
+
+————————————
+2024-11-20 02:17:28
+source: https://twitter.com/News_Of_Alpha/status/1858937647089029247
+2024-11-20 14:05:01,168 - INFO - 新消息: BWENEWS AUTO: XRP: Unlocking Opportunity: Ripple and Mercy Corps Ventures Expand Partnership to Equip Emerging Market Entrepreneurs
+方程式新闻自动发布: XRP：释放机遇：Ripple 和 Mercy Corps Ventures 扩大合作伙伴关系，为新兴市场企业家提供装备
+
+
+$XRP
+————————————
+2024-11-20 04:21:22
+2024-11-20 14:05:01,183 - INFO - 新消息: UPBIT LISTING: [거래] 재스미코인(JASMY), 폴리스웜(NCT) 신규 거래지원 안내 (BTC, USDT 마켓)
+Upbit 上新: 【交易】关于Jasmi Coin（JASMY）和Police Warm（NCT）新增交易支持信息（BTC、USDT市场）
+
+
+$JASMY、$BTC、$USDT
+————————————
+2024-11-20 10:49:11
+source: https://upbit.com/service_center/notice?id=4655
+2024-11-20 14:05:01,205 - INFO - 新消息: UPBIT LISTING: [Trade] Market Support for Bonk(BONK) (KRW Market)
+Upbit 上新: [交易] Bonk(BONK) 的市场支持 (韩元市场)
+
+
+$BONK
+————————————
+2024-11-20 10:55:41
+source: https://upbit.com/service_center/notice?id=4656
+2024-11-20 14:05:01,227 - INFO - 新消息: OKX LISTING: OKX to list perpetual for DEGEN, SLERF, and ARKM crypto, along with their margin trading and Simple Earn
+OKEX 上新: OKX 将上线 DEGEN、SLERF 和 ARKM 加密货币的永久合约，以及其保证金交易和 Simple Earn
+
+
+$ARKM
+————————————
+2024-11-20 13:30:01
+source: https://www.okx.com/cn/help-center/section/announcements-latest-announcements
+2024-11-20 14:05:01,243 - INFO - 新消息: OKX LISTING: OKX to list MORPHO (Morpho) for spot trading
+OKEX 上新: OKX即将上线MORPHO（Morpho）现货交易
+
+————————————
+2024-11-20 14:00:01
+source: https://www.okx.com/cn/help-center/section/announcements-latest-announcements
+2024-11-20 14:05:03,413 - INFO - 消息发送成功: Bybit Listing: Bybit to list LUCEUSDT Perpetual Co...
+2024-11-20 14:05:04,396 - INFO - 消息发送成功: BWENEWS AUTO: JOE: Token Mill - LIVE!
+方程式新闻自动发布: J...
+2024-11-20 14:05:05,546 - INFO - 消息发送成功: [Sponsored] Bitget Listing: Bitget Will List Ai16z...
+2024-11-20 14:05:06,463 - INFO - 消息发送成功: BWENEWS AUTO: DYDX: Enter the dYdX Unlimited Era: ...
+2024-11-20 14:05:08,039 - INFO - 消息发送成功: CoinbaseInt Perp Listing: We will add support for ...
+2024-11-20 14:05:09,033 - INFO - 消息发送成功: AggrNews: COINBASE DELISTS WBTC: BLOG
+AggrNews: Co...
+2024-11-20 14:05:10,267 - INFO - 消息发送成功: Tree News: *BITCOIN SETS A RECORD HIGH OF MORE THA...
+2024-11-20 14:05:11,440 - INFO - 消息发送成功: BWENEWS AUTO: XRP: Unlocking Opportunity: Ripple a...
+2024-11-20 14:05:12,618 - ERROR - 发送消息失败: Message: element not interactable
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000102604324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000102643740 cxxbridge1$string$len + 347924
+4   chromedriver                        0x00000001026425c4 cxxbridge1$string$len + 343448
+5   chromedriver                        0x000000010263ea10 cxxbridge1$string$len + 328164
+6   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+7   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+8   chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+9   chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+10  chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+11  chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+12  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+13  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+14  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+15  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+16  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+17  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:05:23,141 - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102648898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:05:33,699 - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102648898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:05:43,840 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-20 14:05:44,294 - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ba3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102b9c314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001026044b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102648898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x00000001026820fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x000000010263d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x000000010263dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x0000000102b6ee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x0000000102b72120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x0000000102b5617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x0000000102b729e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000102b47988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x0000000102b8d0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000102b8d270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000102b9bf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:05:46,299 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ffb10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/aa7fba1ce8e1f670aa62ced01fd4d189
+2024-11-20 14:05:46,301 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/aa7fba1ce8e1f670aa62ced01fd4d189
+2024-11-20 14:05:46,302 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/aa7fba1ce8e1f670aa62ced01fd4d189
+2024-11-20 14:15:25,295 - feishu_sync - INFO - 请在浏览器中完成登录...
+2024-11-20 14:16:12,069 - feishu_sync - INFO - 登录成功
+2024-11-20 14:16:17,070 - feishu_sync - INFO - 开始监听消息...
+2024-11-20 14:16:18,168 - feishu_sync - INFO - 新消息: Tiny：An AI Media initiative. Made with ChatGPT + MidJourney + Suno + FCPX + Leonardo.AI $Runner
+2024-11-20 14:16:18,183 - feishu_sync - INFO - 新消息: Tiny：buff怪
+2024-11-20 14:16:18,195 - feishu_sync - INFO - 新消息: xu：我擦  涨上去了啊
+2024-11-20 14:16:18,208 - feishu_sync - INFO - 新消息: 魚叉叉：我擦  涨上去了啊
+2024-11-20 14:16:18,221 - feishu_sync - INFO - 新消息: vaj：[回复][恋]:
+图片
+回复:清理一下垃圾，不然起不来
+2024-11-20 14:16:18,234 - feishu_sync - INFO - 新消息: Veyron：什么涨上去了
+2024-11-20 14:16:18,248 - feishu_sync - INFO - 新消息: 梭哈：runner
+2024-11-20 14:16:18,260 - feishu_sync - INFO - 新消息: 魚叉叉：runner
+2024-11-20 14:16:18,274 - feishu_sync - INFO - 新消息: Tiny：他这赛道没人和他竞争
+2024-11-20 14:16:18,286 - feishu_sync - INFO - 新消息: Tiny：我感觉
+2024-11-20 14:16:18,300 - feishu_sync - INFO - 新消息: 海风：UFO也来了。。
+2024-11-20 14:16:18,330 - feishu_sync - INFO - 新消息: Jwh：有ca吗
+2024-11-20 14:16:18,356 - feishu_sync - INFO - 新消息: 梭哈：GVmrR8Hqr8mVzQ9jLdDE24tTiNXVxdk4MV1RYg4cpump
+2024-11-20 14:16:18,368 - feishu_sync - INFO - 新消息: 魚叉叉：[回复][海风]:
+UFO也来了。。
+回复:谁啊 还是说币
+2024-11-20 14:16:18,381 - feishu_sync - INFO - 新消息: 海风：币
+2024-11-20 14:16:18,393 - feishu_sync - INFO - 新消息: 魚叉叉：11
+2024-11-20 14:16:18,405 - feishu_sync - INFO - 新消息: Jwh：11
+2024-11-20 14:16:18,418 - feishu_sync - INFO - 新消息: Dean：11
+2024-11-20 14:16:20,378 - feishu_sync - INFO - 消息发送成功: Tiny：An AI Media initiative. Made with ChatGPT + M...
+2024-11-20 14:16:21,585 - feishu_sync - ERROR - 发送消息失败: Message: element not interactable
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010501bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105014314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104a7c324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000104abb740 cxxbridge1$string$len + 347924
+4   chromedriver                        0x0000000104aba5c4 cxxbridge1$string$len + 343448
+5   chromedriver                        0x0000000104ab6a10 cxxbridge1$string$len + 328164
+6   chromedriver                        0x0000000104afa0fc cxxbridge1$string$len + 604368
+7   chromedriver                        0x0000000104ab50b0 cxxbridge1$string$len + 321668
+8   chromedriver                        0x0000000104ab5d00 cxxbridge1$string$len + 324820
+9   chromedriver                        0x0000000104fe6e08 cxxbridge1$str$ptr + 3435328
+10  chromedriver                        0x0000000104fea120 cxxbridge1$str$ptr + 3448408
+11  chromedriver                        0x0000000104fce17c cxxbridge1$str$ptr + 3333812
+12  chromedriver                        0x0000000104fea9e0 cxxbridge1$str$ptr + 3450648
+13  chromedriver                        0x0000000104fbf988 cxxbridge1$str$ptr + 3274432
+14  chromedriver                        0x00000001050050f4 cxxbridge1$str$ptr + 3558956
+15  chromedriver                        0x0000000105005270 cxxbridge1$str$ptr + 3559336
+16  chromedriver                        0x0000000105013f88 cxxbridge1$str$ptr + 3620032
+17  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:16:32,607 - feishu_sync - ERROR - 发送消息失败: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010501bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105014314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104a7c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000104ac0898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x0000000104afa0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x0000000104ab50b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000104ab5d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x0000000104fe6e08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x0000000104fea120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x0000000104fce17c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x0000000104fea9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000104fbf988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001050050f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000105005270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000105013f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:16:36,567 - feishu_sync - INFO - 消息发送成功: 魚叉叉：我擦  涨上去了啊...
+2024-11-20 14:16:37,752 - feishu_sync - INFO - 消息发送成功: vaj：[回复][恋]:
+图片
+回复:清理一下垃圾，不然起不来...
+2024-11-20 14:16:38,923 - feishu_sync - INFO - 消息发送成功: Veyron：什么涨上去了...
+2024-11-20 14:16:40,115 - feishu_sync - INFO - 消息发送成功: 梭哈：runner...
+2024-11-20 14:16:41,313 - feishu_sync - INFO - 消息发送成功: 魚叉叉：runner...
+2024-11-20 14:16:42,425 - feishu_sync - ERROR - 发送消息失败: Message: element not interactable
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010501bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105014314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104a7c324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000104abb740 cxxbridge1$string$len + 347924
+4   chromedriver                        0x0000000104aba5c4 cxxbridge1$string$len + 343448
+5   chromedriver                        0x0000000104ab6a10 cxxbridge1$string$len + 328164
+6   chromedriver                        0x0000000104afa0fc cxxbridge1$string$len + 604368
+7   chromedriver                        0x0000000104ab50b0 cxxbridge1$string$len + 321668
+8   chromedriver                        0x0000000104ab5d00 cxxbridge1$string$len + 324820
+9   chromedriver                        0x0000000104fe6e08 cxxbridge1$str$ptr + 3435328
+10  chromedriver                        0x0000000104fea120 cxxbridge1$str$ptr + 3448408
+11  chromedriver                        0x0000000104fce17c cxxbridge1$str$ptr + 3333812
+12  chromedriver                        0x0000000104fea9e0 cxxbridge1$str$ptr + 3450648
+13  chromedriver                        0x0000000104fbf988 cxxbridge1$str$ptr + 3274432
+14  chromedriver                        0x00000001050050f4 cxxbridge1$str$ptr + 3558956
+15  chromedriver                        0x0000000105005270 cxxbridge1$str$ptr + 3559336
+16  chromedriver                        0x0000000105013f88 cxxbridge1$str$ptr + 3620032
+17  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:16:48,182 - feishu_sync - INFO - 消息发送成功: Tiny：我感觉...
+2024-11-20 14:16:49,349 - feishu_sync - INFO - 消息发送成功: 海风：UFO也来了。。...
+2024-11-20 14:16:50,531 - feishu_sync - INFO - 消息发送成功: Jwh：有ca吗...
+2024-11-20 14:16:51,752 - feishu_sync - INFO - 消息发送成功: 梭哈：GVmrR8Hqr8mVzQ9jLdDE24tTiNXVxdk4MV1RYg4cpump...
+2024-11-20 14:16:52,946 - feishu_sync - INFO - 消息发送成功: 魚叉叉：[回复][海风]:
+UFO也来了。。
+回复:谁啊 还是说币...
+2024-11-20 14:16:54,114 - feishu_sync - INFO - 消息发送成功: 海风：币...
+2024-11-20 14:16:55,228 - feishu_sync - ERROR - 发送消息失败: Message: element not interactable
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010501bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105014314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104a7c324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000104abb740 cxxbridge1$string$len + 347924
+4   chromedriver                        0x0000000104aba5c4 cxxbridge1$string$len + 343448
+5   chromedriver                        0x0000000104ab6a10 cxxbridge1$string$len + 328164
+6   chromedriver                        0x0000000104afa0fc cxxbridge1$string$len + 604368
+7   chromedriver                        0x0000000104ab50b0 cxxbridge1$string$len + 321668
+8   chromedriver                        0x0000000104ab5d00 cxxbridge1$string$len + 324820
+9   chromedriver                        0x0000000104fe6e08 cxxbridge1$str$ptr + 3435328
+10  chromedriver                        0x0000000104fea120 cxxbridge1$str$ptr + 3448408
+11  chromedriver                        0x0000000104fce17c cxxbridge1$str$ptr + 3333812
+12  chromedriver                        0x0000000104fea9e0 cxxbridge1$str$ptr + 3450648
+13  chromedriver                        0x0000000104fbf988 cxxbridge1$str$ptr + 3274432
+14  chromedriver                        0x00000001050050f4 cxxbridge1$str$ptr + 3558956
+15  chromedriver                        0x0000000105005270 cxxbridge1$str$ptr + 3559336
+16  chromedriver                        0x0000000105013f88 cxxbridge1$str$ptr + 3620032
+17  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:16:58,944 - feishu_sync - INFO - 消息发送成功: Jwh：11...
+2024-11-20 14:17:00,110 - feishu_sync - INFO - 消息发送成功: Dean：11...
+2024-11-20 14:17:33,463 - feishu_sync - INFO - 新消息: xu：哈哈哈哈钻地了要
+2024-11-20 14:17:33,484 - feishu_sync - INFO - 新消息: Panx：国人
+2024-11-20 14:17:33,500 - feishu_sync - INFO - 新消息: Panx：也敢发币？
+2024-11-20 14:17:33,515 - feishu_sync - INFO - 新消息: B1gsn：OKX整天上的是什么东西
+2024-11-20 14:17:33,528 - feishu_sync - INFO - 新消息: 梭哈：昨天的lo还可以
+2024-11-20 14:17:33,543 - feishu_sync - INFO - 新消息: oxb：[回复][恋]:
+图片
+回复:真给我笑死
+2024-11-20 14:17:33,557 - feishu_sync - INFO - 新消息: Tiny：这runner
+2024-11-20 14:17:33,575 - feishu_sync - INFO - 新消息: Tiny：感觉真还可以
+2024-11-20 14:17:35,532 - feishu_sync - INFO - 消息发送成功: xu：哈哈哈哈钻地了要...
+2024-11-20 14:17:36,691 - feishu_sync - INFO - 消息发送成功: Panx：国人...
+2024-11-20 14:17:37,844 - feishu_sync - INFO - 消息发送成功: Panx：也敢发币？...
+2024-11-20 14:17:39,042 - feishu_sync - INFO - 消息发送成功: B1gsn：OKX整天上的是什么东西...
+2024-11-20 14:17:40,194 - feishu_sync - INFO - 消息发送成功: 梭哈：昨天的lo还可以...
+2024-11-20 14:17:41,375 - feishu_sync - INFO - 消息发送成功: oxb：[回复][恋]:
+图片
+回复:真给我笑死...
+2024-11-20 14:17:42,555 - feishu_sync - INFO - 消息发送成功: Tiny：这runner...
+2024-11-20 14:17:43,669 - feishu_sync - ERROR - 发送消息失败: Message: element not interactable
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+0   chromedriver                        0x000000010501bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000105014314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000104a7c324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000104abb740 cxxbridge1$string$len + 347924
+4   chromedriver                        0x0000000104aba5c4 cxxbridge1$string$len + 343448
+5   chromedriver                        0x0000000104ab6a10 cxxbridge1$string$len + 328164
+6   chromedriver                        0x0000000104afa0fc cxxbridge1$string$len + 604368
+7   chromedriver                        0x0000000104ab50b0 cxxbridge1$string$len + 321668
+8   chromedriver                        0x0000000104ab5d00 cxxbridge1$string$len + 324820
+9   chromedriver                        0x0000000104fe6e08 cxxbridge1$str$ptr + 3435328
+10  chromedriver                        0x0000000104fea120 cxxbridge1$str$ptr + 3448408
+11  chromedriver                        0x0000000104fce17c cxxbridge1$str$ptr + 3333812
+12  chromedriver                        0x0000000104fea9e0 cxxbridge1$str$ptr + 3450648
+13  chromedriver                        0x0000000104fbf988 cxxbridge1$str$ptr + 3274432
+14  chromedriver                        0x00000001050050f4 cxxbridge1$str$ptr + 3558956
+15  chromedriver                        0x0000000105005270 cxxbridge1$str$ptr + 3559336
+16  chromedriver                        0x0000000105013f88 cxxbridge1$str$ptr + 3620032
+17  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 14:17:47,280 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:20:07,547 - feishu_sync - INFO - 请在浏览器中完成登录...
+2024-11-20 14:20:35,782 - feishu_sync - INFO - 登录成功
+2024-11-20 14:20:40,788 - feishu_sync - INFO - 开始监听消息...
+2024-11-20 14:20:41,942 - feishu_sync - INFO - 新消息: Tiny：An AI Media initiative. Made with ChatGPT + MidJourney + Suno + FCPX + Leonardo.AI $Runner
+2024-11-20 14:20:41,963 - feishu_sync - INFO - 新消息: Tiny：buff怪
+2024-11-20 14:20:41,994 - feishu_sync - INFO - 新消息: xu：我擦  涨上去了啊
+2024-11-20 14:20:42,014 - feishu_sync - INFO - 新消息: 魚叉叉：我擦  涨上去了啊
+2024-11-20 14:20:42,036 - feishu_sync - INFO - 新消息: vaj：[回复][恋]:
+图片
+回复:清理一下垃圾，不然起不来
+2024-11-20 14:20:42,055 - feishu_sync - INFO - 新消息: Veyron：什么涨上去了
+2024-11-20 14:20:42,075 - feishu_sync - INFO - 新消息: 梭哈：runner
+2024-11-20 14:20:42,095 - feishu_sync - INFO - 新消息: 魚叉叉：runner
+2024-11-20 14:20:42,114 - feishu_sync - INFO - 新消息: Tiny：他这赛道没人和他竞争
+2024-11-20 14:20:42,135 - feishu_sync - INFO - 新消息: Tiny：我感觉
+2024-11-20 14:20:42,155 - feishu_sync - INFO - 新消息: 海风：UFO也来了。。
+2024-11-20 14:20:42,174 - feishu_sync - INFO - 新消息: Jwh：有ca吗
+2024-11-20 14:20:42,193 - feishu_sync - INFO - 新消息: 梭哈：GVmrR8Hqr8mVzQ9jLdDE24tTiNXVxdk4MV1RYg4cpump
+2024-11-20 14:20:42,213 - feishu_sync - INFO - 新消息: 魚叉叉：[回复][海风]:
+UFO也来了。。
+回复:谁啊 还是说币
+2024-11-20 14:20:42,235 - feishu_sync - INFO - 新消息: 海风：币
+2024-11-20 14:20:42,255 - feishu_sync - INFO - 新消息: 魚叉叉：11
+2024-11-20 14:20:42,280 - feishu_sync - INFO - 新消息: Jwh：11
+2024-11-20 14:20:42,322 - feishu_sync - INFO - 新消息: Dean：11
+2024-11-20 14:20:44,701 - feishu_sync - INFO - 消息发送成功: Tiny：An AI Media initiative. Made with ChatGPT + M...
+2024-11-20 14:20:46,009 - feishu_sync - INFO - 消息发送成功: Tiny：buff怪...
+2024-11-20 14:20:47,250 - feishu_sync - INFO - 消息发送成功: xu：我擦  涨上去了啊...
+2024-11-20 14:20:48,466 - feishu_sync - INFO - 消息发送成功: 魚叉叉：我擦  涨上去了啊...
+2024-11-20 14:20:49,733 - feishu_sync - INFO - 消息发送成功: vaj：[回复][恋]:
+图片
+回复:清理一下垃圾，不然起不来...
+2024-11-20 14:20:50,998 - feishu_sync - INFO - 消息发送成功: Veyron：什么涨上去了...
+2024-11-20 14:20:52,335 - feishu_sync - INFO - 消息发送成功: 梭哈：runner...
+2024-11-20 14:20:53,545 - feishu_sync - INFO - 消息发送成功: 魚叉叉：runner...
+2024-11-20 14:20:55,517 - feishu_sync - INFO - 消息发送成功: Tiny：他这赛道没人和他竞争...
+2024-11-20 14:20:57,087 - feishu_sync - INFO - 消息发送成功: Tiny：我感觉...
+2024-11-20 14:20:58,385 - feishu_sync - INFO - 消息发送成功: 海风：UFO也来了。。...
+2024-11-20 14:21:00,171 - feishu_sync - INFO - 消息发送成功: Jwh：有ca吗...
+2024-11-20 14:21:02,198 - feishu_sync - INFO - 消息发送成功: 梭哈：GVmrR8Hqr8mVzQ9jLdDE24tTiNXVxdk4MV1RYg4cpump...
+2024-11-20 14:21:03,656 - feishu_sync - INFO - 消息发送成功: 魚叉叉：[回复][海风]:
+UFO也来了。。
+回复:谁啊 还是说币...
+2024-11-20 14:21:05,330 - feishu_sync - INFO - 消息发送成功: 海风：币...
+2024-11-20 14:21:06,709 - feishu_sync - INFO - 消息发送成功: 魚叉叉：11...
+2024-11-20 14:21:08,596 - feishu_sync - INFO - 消息发送成功: Jwh：11...
+2024-11-20 14:21:09,867 - feishu_sync - INFO - 消息发送成功: Dean：11...
+2024-11-20 14:21:37,495 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:23:17,991 - feishu_sync - INFO - 请在浏览器中完成登录，然后在界面上点击"登录成功"按钮...
+2024-11-20 14:23:18,996 - feishu_sync - ERROR - 监控过程发生错误: 登录失败
+2024-11-20 14:23:32,687 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:23:36,446 - feishu_sync - INFO - 请在浏览器中完成登录，然后在界面上点击"登录成功"按钮...
+2024-11-20 14:23:37,453 - feishu_sync - ERROR - 监控过程发生错误: 登录失败
+2024-11-20 14:23:49,182 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:25:52,171 - feishu_sync - INFO - 请在浏览器中完成登录，然后在界面上点击"登录成功"按钮...
+2024-11-20 14:25:53,176 - feishu_sync - ERROR - 监控过程发生错误: 登录失败
+2024-11-20 14:27:15,705 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:27:32,797 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:27:42,116 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:27:56,014 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:30:14,321 - feishu_sync - INFO - Chrome浏览器启动成功
+2024-11-20 14:30:25,812 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:30:26,443 - feishu_sync - INFO - 浏览器已关闭
+2024-11-20 14:31:39,786 - feishu_sync - INFO - Chrome浏览器启动成功
+2024-11-20 14:32:32,809 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:32:33,101 - feishu_sync - INFO - 浏览器已关闭
+2024-11-20 14:35:06,369 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:35:06,739 - feishu_sync - INFO - 浏览器已关闭
+2024-11-20 14:36:02,422 - feishu_sync - INFO - 正在停止监控...
+2024-11-20 14:36:02,928 - feishu_sync - INFO - 浏览器已关闭
+2024-11-20 14:37:16,952 - feishu_sync - ERROR - 监控过程发生错误: 'FeishuMonitor' object has no attribute 'is_login_confirmed'
+2024-11-20 14:37:22,400 - feishu_sync - ERROR - 监控过程发生错误: 'FeishuMonitor' object has no attribute 'is_login_confirmed'
+2024-11-20 14:41:48,279 - feishu_sync - ERROR - 监控过程发生错误: 'FeishuMonitor' object has no attribute 'is_login_confirmed'
