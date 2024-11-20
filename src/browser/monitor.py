@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver import ActionChains
 
 from ..config.group_mapping import GroupMappingConfig
 from ..utils.logger import log_manager
@@ -130,27 +131,36 @@ class FeishuMonitor:
                 
             # 点击进入目标群
             group.click()
-            time.sleep(2)  # 增加等待时间，确保群组完全加载
+            time.sleep(2)  # 等待群组加载
             
             try:
-                # 使用更精确的XPath定位输入框区域
-                input_area = WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'editor-kit-container')]//div[@contenteditable='true']"))
+                # 使用body元素发送按键，这样可以避免直接操作输入框
+                body = WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
                 )
                 
-                # 确保输入框可见并聚焦
-                self.driver.execute_script("arguments[0].scrollIntoView(true);", input_area)
-                input_area.click()
-                time.sleep(0.5)  # 等待输入框聚焦
+                # 确保焦点在页面上
+                body.click()
+                time.sleep(0.5)
                 
-                # 清空输入框并输入消息
-                input_area.clear()
-                # 使用JavaScript直接设置内容
-                self.driver.execute_script("arguments[0].innerHTML = arguments[1]", input_area, message['content'])
-                time.sleep(0.5)  # 等待内容设置完成
+                # 直接发送按键事件到body
+                for char in message['content']:
+                    body.send_keys(char)
+                    time.sleep(0.05)  # 添加少量延迟模拟真实输入
                 
-                # 模拟按Enter键发送消息
-                input_area.send_keys(Keys.ENTER)
+                time.sleep(0.5)
+                
+                # 查找并点击发送按钮
+                send_button = WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "button.ud__button--icon .send__button"))
+                )
+                
+                # 确保按钮可见和可点击
+                self.driver.execute_script("arguments[0].scrollIntoView(true);", send_button)
+                time.sleep(0.5)
+                
+                # 尝试使用JavaScript点击按钮
+                self.driver.execute_script("arguments[0].click();", send_button)
                 
                 log_manager.info(f"消息已转发到群 [{target_group}]: {message['content'][:50]}...")
                 time.sleep(1)  # 等待消息发送完成
@@ -158,6 +168,14 @@ class FeishuMonitor:
                 
             except Exception as e:
                 log_manager.error(f"发送消息失败: {str(e)}")
+                log_manager.error(f"消息内容: {message['content']}")
+                # 尝试获取发送按钮状态
+                try:
+                    send_button = self.driver.find_element(By.CSS_SELECTOR, "button.ud__button--icon .send__button")
+                    button_classes = send_button.get_attribute("class")
+                    log_manager.error(f"发送按钮状态: {button_classes}")
+                except:
+                    log_manager.error("无法获取发送按钮状态")
                 return False
                 
         except Exception as e:
