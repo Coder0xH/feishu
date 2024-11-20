@@ -417,3 +417,146 @@ Stacktrace:
 2024-11-20 19:56:24,741 - feishu_sync - INFO - 登录成功
 2024-11-20 19:56:24,742 - feishu_sync - INFO - 登录成功，准备开始监控
 2024-11-20 19:56:37,961 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: ai16z相关性的高位盘 他爱买就买呗...
+2024-11-20 20:01:11,929 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 20:01:13,922 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 20:01:42,604 - feishu_sync - INFO - 登录成功
+2024-11-20 20:01:42,605 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 20:02:05,839 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: ai16z相关性的高位盘 他爱买就买呗...
+2024-11-20 20:03:25,096 - feishu_sync - ERROR - 解析消息内容失败: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010064fac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000100648314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001000b0324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x00000001000e8e50 cxxbridge1$string$len + 321060
+4   chromedriver                        0x00000001000e9d00 cxxbridge1$string$len + 324820
+5   chromedriver                        0x000000010061ae08 cxxbridge1$str$ptr + 3435328
+6   chromedriver                        0x000000010061e120 cxxbridge1$str$ptr + 3448408
+7   chromedriver                        0x000000010060217c cxxbridge1$str$ptr + 3333812
+8   chromedriver                        0x000000010061e9e0 cxxbridge1$str$ptr + 3450648
+9   chromedriver                        0x00000001005f3988 cxxbridge1$str$ptr + 3274432
+10  chromedriver                        0x00000001006390f4 cxxbridge1$str$ptr + 3558956
+11  chromedriver                        0x0000000100639270 cxxbridge1$str$ptr + 3559336
+12  chromedriver                        0x0000000100647f88 cxxbridge1$str$ptr + 3620032
+13  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+14  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 20:03:25,098 - feishu_sync - INFO - 监控已停止
+2024-11-20 20:03:25,098 - feishu_sync - INFO - 停止监控
+2024-11-20 20:03:26,100 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:03:26,101 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:03:27,104 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:03:27,104 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:03:28,108 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:03:28,109 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:03:29,114 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:03:29,114 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:03:55,461 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 20:03:58,600 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 20:04:28,514 - feishu_sync - INFO - 登录成功
+2024-11-20 20:04:28,515 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 20:04:51,736 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: ai16z相关性的高位盘 他爱买就买呗...
+2024-11-20 20:05:40,359 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: Kirara：......奶龙真的傻不拉几的...
+2024-11-20 20:05:47,565 - feishu_sync - ERROR - 解析消息内容失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001010bc314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000100b244b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000100b29398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000100b2b3e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000100b2b490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000100b685dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000100b5ea10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x0000000100ba20fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000100b5d0b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000100b5dd00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x000000010108ee08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x0000000101092120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x000000010107617c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x00000001010929e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x0000000101067988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001010ad0f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x00000001010ad270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x00000001010bbf88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 20:06:09,918 - feishu_sync - INFO - 监控已停止
+2024-11-20 20:06:09,919 - feishu_sync - INFO - 停止监控
+2024-11-20 20:06:10,747 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:06:10,747 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:06:11,750 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:06:11,750 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:06:12,755 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:06:12,755 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:06:13,761 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:06:13,761 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:06:20,421 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 20:06:23,387 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 20:06:50,794 - feishu_sync - INFO - 登录成功
+2024-11-20 20:06:50,794 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 20:07:13,954 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: 金金：今天怎么这么安静...
+2024-11-20 20:07:41,331 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: peter鎂：今天怎么这么安静...
+2024-11-20 20:08:28,337 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: .：因为瞎了...
+2024-11-20 20:09:37,456 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: 我叫很着调。：确实跟断网没区别...
+2024-11-20 20:10:02,107 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: 金金：休息...
+2024-11-20 20:10:26,693 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 未知用户: l：休息...
+2024-11-20 20:10:50,278 - feishu_sync - INFO - 监控已停止
+2024-11-20 20:10:50,278 - feishu_sync - INFO - 停止监控
+2024-11-20 20:10:50,337 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:10:50,337 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:10:51,340 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:10:51,340 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:10:52,344 - feishu_sync - ERROR - 查找群组 0xsun全员交流群 失败: 'NoneType' object has no attribute 'find_element'
+2024-11-20 20:10:52,344 - feishu_sync - ERROR - 未找到群组: 0xsun全员交流群
+2024-11-20 20:11:08,936 - feishu_sync - INFO - 正在启动浏览器...
+2024-11-20 20:11:10,937 - feishu_sync - INFO - 浏览器已启动，请扫码登录...
+2024-11-20 20:11:40,608 - feishu_sync - INFO - 登录成功
+2024-11-20 20:11:40,609 - feishu_sync - INFO - 登录成功，准备开始监控
+2024-11-20 20:11:53,755 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 以后：做空sol...
+2024-11-20 20:12:08,270 - feishu_sync - INFO - 消息已转发到群 [Yay-0xsun]: 金金：太冷了...
+2024-11-20 20:12:31,523 - feishu_sync - ERROR - 解析消息内容失败: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x000000010153bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000101534314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000100f9c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000100fa1398 cxxbridge1$string$len + 109420
+4   chromedriver                        0x0000000100fa33e8 cxxbridge1$string$len + 117692
+5   chromedriver                        0x0000000100fa3490 cxxbridge1$string$len + 117860
+6   chromedriver                        0x0000000100fe05dc cxxbridge1$string$len + 368048
+7   chromedriver                        0x0000000100fd6a10 cxxbridge1$string$len + 328164
+8   chromedriver                        0x000000010101a0fc cxxbridge1$string$len + 604368
+9   chromedriver                        0x0000000100fd50b0 cxxbridge1$string$len + 321668
+10  chromedriver                        0x0000000100fd5d00 cxxbridge1$string$len + 324820
+11  chromedriver                        0x0000000101506e08 cxxbridge1$str$ptr + 3435328
+12  chromedriver                        0x000000010150a120 cxxbridge1$str$ptr + 3448408
+13  chromedriver                        0x00000001014ee17c cxxbridge1$str$ptr + 3333812
+14  chromedriver                        0x000000010150a9e0 cxxbridge1$str$ptr + 3450648
+15  chromedriver                        0x00000001014df988 cxxbridge1$str$ptr + 3274432
+16  chromedriver                        0x00000001015250f4 cxxbridge1$str$ptr + 3558956
+17  chromedriver                        0x0000000101525270 cxxbridge1$str$ptr + 3559336
+18  chromedriver                        0x0000000101533f88 cxxbridge1$str$ptr + 3620032
+19  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 20:13:08,023 - feishu_sync - ERROR - 解析消息内容失败: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010153bac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000101534314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x0000000100f9c324 cxxbridge1$string$len + 88824
+3   chromedriver                        0x0000000100fd4e50 cxxbridge1$string$len + 321060
+4   chromedriver                        0x0000000100fd5d00 cxxbridge1$string$len + 324820
+5   chromedriver                        0x0000000101506e08 cxxbridge1$str$ptr + 3435328
+6   chromedriver                        0x000000010150a120 cxxbridge1$str$ptr + 3448408
+7   chromedriver                        0x00000001014ee17c cxxbridge1$str$ptr + 3333812
+8   chromedriver                        0x000000010150a9e0 cxxbridge1$str$ptr + 3450648
+9   chromedriver                        0x00000001014df988 cxxbridge1$str$ptr + 3274432
+10  chromedriver                        0x00000001015250f4 cxxbridge1$str$ptr + 3558956
+11  chromedriver                        0x0000000101525270 cxxbridge1$str$ptr + 3559336
+12  chromedriver                        0x0000000101533f88 cxxbridge1$str$ptr + 3620032
+13  libsystem_pthread.dylib             0x000000019aa002e4 _pthread_start + 136
+14  libsystem_pthread.dylib             0x000000019a9fb0fc thread_start + 8
+
+2024-11-20 20:13:08,026 - feishu_sync - INFO - 监控已停止
+2024-11-20 20:13:08,026 - feishu_sync - INFO - 停止监控

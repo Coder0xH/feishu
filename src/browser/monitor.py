@@ -105,7 +105,6 @@ class FeishuMonitor:
                         
                         return [{
                             'content': formatted_content,
-                            'sender': sender_name,
                             'raw_content': '[图片]',
                             'time': datetime.now(),
                             'type': 'image'
@@ -115,26 +114,15 @@ class FeishuMonitor:
                     text_element = latest_message.find_element(By.XPATH, ".//div[contains(@class, 'richTextContainer')]//span[contains(@class, 'text-only')]")
                     content = text_element.get_attribute('innerText').strip()
                     
-                    # 获取发送者名称
-                    try:
-                        sender_element = latest_message.find_element(By.XPATH, ".//div[contains(@class, 'message-info__inner')]//span[contains(@class, 'message-info-name--clickable')]")
-                        sender_name = sender_element.get_attribute('innerText').strip()
-                    except NoSuchElementException:
-                        sender_name = "未知用户"
-                    
-                    # 格式化消息内容
-                    formatted_content = f"{sender_name}: {content}"
-                    
                     # 如果已经发送过这条消息，则跳过
-                    if group_name in self.last_message_content and self.last_message_content[group_name] == formatted_content:
+                    if group_name in self.last_message_content and self.last_message_content[group_name] == content:
                         return []
                     
                     # 更新最后发送的消息内容
-                    self.last_message_content[group_name] = formatted_content
+                    self.last_message_content[group_name] = content
                     
                     return [{
-                        'content': formatted_content,
-                        'sender': sender_name,
+                        'content': content,
                         'raw_content': content,
                         'time': datetime.now(),
                         'type': 'text'
